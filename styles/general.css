@@ -311,6 +311,11 @@ footer {
   .section-1, .section-2 {
     padding: 20px 10px;
   }
+
+  .section-1 {
+    background-position: center;
+  }
+  
   .welcome h1 {
     font-size: 2rem;
   }
