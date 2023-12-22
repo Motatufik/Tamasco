@@ -1,0 +1,360 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+main {
+  padding: 0;
+  margin: 0;
+}
+
+.section-1 {
+  color: white;
+  height: 100vh;
+  background-image: url('../images/laabo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-content: center;
+}
+
+.sub-section {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome h1 {
+  font-size: 50px;
+  margin: 0 0 20px 0;
+}
+.breif {
+  width: 90%;
+  text-align: center;
+}
+
+.btn-0 button {
+  padding: 10px 30px;
+  border: solid 1px white;
+  color: white;
+  background-color: transparent;
+  margin-top: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* end of section-1 */
+
+.section-2 {
+  padding: 50px 10px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  background-color:  rgb(238, 238, 238);
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.courses h2 {
+  font-size: 35px;
+  margin: 0;
+}
+.course-7 {
+  color:  #c60800;
+  width: 60%;
+  text-align: center;
+}
+
+#scroll-content{
+width:80%;
+gap: 20px;
+display: flex;
+flex-direction: row;
+overflow-x: scroll;
+padding: 10px;
+}
+
+#scroll-content::-webkit-scrollbar {
+height: 5px;
+background-color: rgb(250, 191, 191);
+}
+#scroll-content::-webkit-scrollbar-thumb {
+  background-color:  #c60800;
+}
+
+.content-0,.content-1, .content-3, .content-4,
+.content-5,.content-6, .content-7 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+}
+.content-0 {
+  background-image: url('../images/chemical-4096500_1280.jpg');
+}
+.content-1 {
+  background-image: url('../images/books-2463779_1280.jpg');
+}
+.content-3 {
+  background-image: url('../images/olive-oil-346997_1280.jpg');
+}
+.content-4 {
+background-image: url('../images/tractor-385681_1280.jpg');
+}
+.content-5 {
+  background-image: url('../images/blueprint-370588_1280.jpg');
+}
+.content-6 {
+  background-image: url('../images/coins-1726618_1280.jpg');
+}
+.content-7 {
+  background-image: url('../images/art-1478831_1280.jpg');
+}
+
+
+#course-details {
+width: 300px;
+text-align: center;
+}
+
+.job0, .staff-0, .remarks-0 {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.job {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.acheive {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.a-images ul {
+list-style: none;
+display: inline-flex;
+gap: 20px;
+}
+
+.a-images ul img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.a-images ul div {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.staff-1, .remarks-1 {
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+.staff-2 {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.remarks-2 {
+  width: 50%;
+}
+.remarks-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  background-color: rgb(233, 152, 152);
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.remarks-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.remarks-5 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.remarks-6 {
+  width: 200px;
+  text-align: left;
+}
+.remarks-6 div {
+  font-weight: bold;
+}
+
+.contact {
+  width: 50%;
+  height: 300px;
+  margin-top:50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/heeeat.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+}
+
+.contact-1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact button {
+  border: solid 1px white;
+  padding: 15px 30px;
+  color: white;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px ;
+}
+
+.social {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.social-1 {
+  width: 50%;
+  text-align: center;
+}
+
+.social-2 ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 15px;
+}
+
+.social-2 ul img {
+  width: 15px;
+  height: 15px;
+}
+
+.social-2 ul li {
+  border: solid 1px black;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+
+
+/* media queries */
+
+/* tablet view */
+@media screen and (max-width: 800px) {
+  .section-1, .section-2 {
+    padding: 20px;
+  }
+  .welcome h1 {
+    font-size: 2.5rem;
+  }
+  
+  .a-images ul {
+    list-style: none;
+    display: list-item;
+    padding-left: 10px;
+    }
+
+    .a-images ul img {
+      width: 500px;
+      height: 200px;
+      margin-bottom: 10px;
+      object-position: top;
+    }
+
+    .remarks-3 {
+      width: 90%;
+    }
+
+    .contact {
+      width: 80%;
+    }
+}
+
+
+/* mobile view */
+@media screen and (max-width: 500px) {
+  .section-1, .section-2 {
+    padding: 20px 10px;
+  }
+  .welcome h1 {
+    font-size: 2rem;
+  }
+
+  .courses h2, .job,
+  .staff-1, .remarks-1,
+  .contact-1, .social {
+   font-size: 1.2rem;
+  }
+
+  .course-7 {
+    width: 80%;
+  }
+
+  .acheive {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .a-images ul img {
+    width: 250px;
+    
+  }
+
+  .remarks-2, .social-1 {
+    width: 80%;
+  }
+
+  .remarks-3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 70%;
+    background-color: rgb(164, 184, 190);
+  }
+
+  .contact {
+    height: 150px;
+  }
+
+  .contact button {
+    padding: 10px 20px;
+  }
+
+  
+
+}

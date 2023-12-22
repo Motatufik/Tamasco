@@ -1,0 +1,72 @@
+
+header {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0 0 30px;
+}
+
+
+.crest img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  gap: 20px;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+}
+.left-section div:last-child {
+  gap: 0;
+}
+
+.menu {
+  display: none;
+}
+
+/* media for tblets */
+@media screen and (max-width: 800px) {
+
+  header {
+    padding: 20px 100px;
+  }
+  .left-section {
+    display: none;
+  }
+
+  .crest img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .menu {
+    display: block;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px 10px 20px;
+    cursor: pointer;
+  }
+  .menu img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+/* mobile view */ 
+@media screen and (max-width: 500px) {
+  header {
+    padding: 20px 50px;
+  }
+}
