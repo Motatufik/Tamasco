@@ -10,7 +10,7 @@ main {
 
 .section-1 {
   color: white;
-  height: 100vh;
+  height: 100dvh;
   background-image: url('../images/laabo.jpg');
   background-size: cover;
   background-repeat: no-repeat;
