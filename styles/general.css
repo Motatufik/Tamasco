@@ -274,10 +274,10 @@ footer {
 
 #sign {
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   right: 0;
   left: 0;
-  padding: 10px 0 ;
+  padding: 5px 0 ;
   background-color: lightgray;
   text-align: center;
 }
