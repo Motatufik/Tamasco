@@ -274,9 +274,9 @@ footer {
 #sign {
   position: absolute;
   bottom: 0;
-  right:0;
+  right: 0;
   left: 0;
-  padding: 0 10px;
+  padding: 10px 0 ;
   background-color: lightgray;
 }
 
