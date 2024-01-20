@@ -270,6 +270,15 @@ footer {
   border-radius: 30px;
 }
 
+#sign {
+  position: absolute;
+  bottom: 0;
+  right:0;
+  left: 0;
+  padding: 0 10px;
+  background-color: lightgray;
+}
+
 
 
 /* media queries */
